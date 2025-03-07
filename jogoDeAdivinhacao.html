@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numeroAleatorio = Math.random()*5;
+        let numeroAleatorioInteiro = Math.round (numeroAleatorio)
+        document.write(numeroAleatorioInteiro); 
+        document.write (" O número é " + numeroAleatorioInteiro + ". ");
+
+        let numero = prompt ("Olá pense em numero de 0 a 10, tente adivinhar qual pensei")
+        if ( numero == numeroAleatorioInteiro) {
+            document.write ("Você acertou parabéns")
+        }else if (numero)
+            document.write ("Você errou!")
+     
+
+    
+    </script>
+</body>
+</html>
